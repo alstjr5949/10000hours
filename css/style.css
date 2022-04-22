@@ -35,3 +35,129 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
       format("opentype");
 }
+
+body {
+  background-color: #5b2386;
+  font-family: "GmarketSansMedium";
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-image: url(../img/clock.png);
+  background-repeat: no-repeat;
+  background-size: contain 100%;
+  background-position: center;
+  padding: 55px 0px;
+  margin: 120px 0 66px;
+}
+
+.titleImg {
+  width: 564px;
+}
+
+.wiseSaying {
+  font-family: "OTEnjoystoriesBA";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #f5df4d;
+  text-align: center;
+  margin-bottom: 78px;
+}
+
+.quotesImg {
+  width: 493px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.infoRule {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.infoRule strong {
+  font-family: "GmarketSansBold";
+  font-size: 20px;
+}
+
+.fieldTimeForm fieldset {
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.fieldTimeForm fieldset:nth-child(2) {
+  margin-bottom: 115px;
+}
+
+.fieldTimeForm .fieldInput,
+.fieldTimeForm .timeInput {
+  width: 228px;
+  background-color: #fff;
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 16px 0px;
+  margin: 0 17px;
+  text-align: center;
+  border: none;
+}
+
+.fieldTimeForm .fieldInput::placeholder,
+.fieldTimeForm .timeInput::placeholder {
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #babcbe;
+  vertical-align: middle;
+}
+
+.startBtnCont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 147px;
+}
+
+.startBtnCont .startBtn {
+  width: 565px;
+  text-align: center;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  line-height: 24px;
+  padding: 21px 0px;
+  background-color: #fcee21;
+  color: #5b2386;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 56px;
+}
+
+.startBtnCont .clickImg {
+  width: 64px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.hide {
+  display: none;
+}
