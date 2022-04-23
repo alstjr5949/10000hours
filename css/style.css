@@ -158,6 +158,12 @@ body {
   right: 20px;
 }
 
+.loadingImg {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
 .hide {
   display: none;
 }
